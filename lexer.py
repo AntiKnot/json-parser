@@ -78,7 +78,6 @@ class Lexer:
             self.consume()
         self.match(TokenType.QUOTE.value)
         if buffer:
-            # self.tokens.append(Token(TokenType.StringLiteral, buffer))
             return Token(TokenType.StringLiteral, buffer)
 
     def get_number_token(self):

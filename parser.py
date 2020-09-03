@@ -24,6 +24,11 @@ class Parser:
             self.eat(TokenType.FALSE)
 
     def parse_object(self):
+        """
+        obj
+        : "{" pair (,pair)* "}"
+        ;
+        """
         self.eat(TokenType.OpenBrace)
         self.parse_pair()
         while self.curr_token.jtype == TokenType.COMMA:
