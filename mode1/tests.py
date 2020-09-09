@@ -1,6 +1,6 @@
-from lexer import Lexer
-from parser import Parser
-from token import TokenType
+from mode1.lexer import Lexer
+from mode1.parser import Parser
+from mode1.token import TokenType
 
 if __name__ == '__main__':
     s = '{"foo":"bar","apple":"","pitch":1}'

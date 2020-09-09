@@ -1,6 +1,6 @@
-from errors import TokenMissError
-from token import Token
-from token import TokenType
+from mode1.errors import TokenMissError
+from mode1.token import Token
+from mode1.token import TokenType
 
 
 class Parser:

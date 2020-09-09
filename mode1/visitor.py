@@ -1,4 +1,4 @@
-from ast import AstNodeTypes
+from mode1.ast import AstNodeTypes
 
 
 class Visitor(object):
